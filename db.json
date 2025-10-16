@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Apple iPhone 15",
+      "category": "electronics",
+      "price": 850,
+      "stock": 4,
+      "description": "Apple iPhone 15 with A17 chip and great camera.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IzmiqpMjQZluu3HpDJ9SeAHaEK?pid=Api&P=0&h=180"
+    },
+    {
+      "id": 2,
+      "title": "Dell XPS 13",
+      "category": "electronics",
+      "price": 1399,
+      "stock": 3,
+      "description": "Dell XPS 13 ultrabook with great performance.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.ay1Mhr6vGKRwFLC9MbjTlwHaEK?pid=Api&P=0&h=180"
+    },
+    {
+      "id": 3,
+      "title": "Sony WH-1000XM5",
+      "category": "electronics",
+      "price": 399,
+      "stock": 10,
+      "description": "Noise cancelling headphones by Sony.",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.lrsaeq_4Gx28QyPbklT9bgHaC5?pid=Api&P=0&h=180"
+    },
+    {
+      "id": 4,
+      "title": "Ceramic Coffee Mug",
+      "category": "home",
+      "price": 12.99,
+      "stock": 20,
+      "description": "Handmade ceramic mug for coffee lovers.",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.XNpAO598dqYEWYMgge60zAHaE8?pid=Api&P=0&h=180"
+    }
+  ],
+  "categories": [
+    "electronics",
+    "home"
+  ],
+  "orders": [
+    {
+      "userId": "guest",
+      "items": [
+        {
+          "productId": 1,
+          "title": "Apple iPhone 15",
+          "qty": 1,
+          "price": 999
+        }
+      ],
+      "address": {
+        "id": "addr1",
+        "label": "Home",
+        "line1": "123 Main St",
+        "city": "Chennai",
+        "pincode": "60001"
+      },
+      "status": "Shipped",
+      "createdAt": "2025-10-16T13:13:52.801Z",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "guest",
+      "name": "Guest",
+      "addresses": [
+        {
+          "id": "addr1",
+          "label": "Home",
+          "line1": "123 Main St",
+          "city": "Chennai",
+          "pincode": "60001"
+        }
+      ]
+    }
+  ]
+}
